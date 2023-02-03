@@ -1,0 +1,46 @@
+
+Pasos para subir mi carpeta local a mi repositorio de GitHub
+
+1. Crear un nuevo repositorio en GitHub
+	- Nombre del repositorio
+	- Descripción Opcional
+	- Dejarlo en público
+
+2.- Guardar o copiar la ruta del repositorio generado
+
+3.- Abrir la carpeta que vamos a convertir en repositorio desde Git Bash
+	- Abrir con Git Bash Here o moverse a la carpeta con comandos de terminal
+
+4.- Revisar 2 veces que estamos en la ruta correcta
+
+5.- Inicializar la carpeta con git init
+	- Validar que al final de la ruta aparezca master/main
+
+6.- Ejecutar git status para conocer el estado de mi carpeta
+
+7.- Utilizar git add . para agregar TODOS los archivos que no tienen seguimiento
+	- (puedes usar el comando git add nombreArchivo para agregar de uno en uno)
+
+8.- Revisar el status de la carpeta con git status
+
+9.- Comentar los cambios con el comando git commit -m
+
+10. Conectar el repositorio de GitHub que hicimos en el paso 1 con nuestra carpeta loca, usando git remote add origin direccionDelRepositorio
+
+11.- Empujar todos los cambios con git push origin master/main
+
+12.- Revisar que el repositorio de GitHub se actualiza correctamente
+
+
+
+
+///////////////////////////////////////////////////////////////////
+
+Cuando ya esta conectdo la carpeta local con un repositorio de GitHub, ejecutar solo estos comandos
+
+- git status para revisar cualquier cambio
+- git add para agregarlo
+- git commit -m para comentar
+- git push origin master/main para subir los cambios
+
+
